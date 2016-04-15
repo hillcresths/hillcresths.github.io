@@ -29,7 +29,7 @@
 		background-image: url(Untitled-3.jpg);
 		background-size: 100%;
 		background-repeat: repeat-y;
-		cursor: url('COOORSOR.png'), auto;
+		cursor: url('../assets/images/COOORSOR.png'), auto;
 		overflow:hidden;
 	}
 	body > .grid {
@@ -59,7 +59,7 @@
 		border-radius: 50%;
 	 }
 	.startup {
-		background-image: url(Untitled-3.jpg);
+		background-image: url(../assets/images/bg.jpg);
 		-moz-border-radius: 200px;
 		-webkit-border-radius: 400px;
 		border-radius: 50%;
@@ -107,7 +107,7 @@
 		opacity: .5;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 		filter: alpha(opacity=50);
-		cursor: url('COOORSORH.png'), auto;
+		cursor: url('../assets/images/COOORSORH.png'), auto;
 	}
 	.circletext {
 		display: inline-block;
@@ -117,7 +117,6 @@
 	}
 	.circletext:hover {
 		color: #FFFFFF;
-		cursor: url('COOORSORH.png'), auto;
 		text-decoration:none;
 		z-index: 1;
 	}
@@ -273,7 +272,7 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:30px; color:#161673;'>Special Programs:</p> <table style='width:100%'> <tr> <td> <p style='font-size:25px; color:#161673; text-align: center;'> Girls Who Code: <br> <img src='languages.png' style= 'width:25%' > </p> </td> <td> <p style='font-size:25px; color:#161673; text-align: center;' > CodeNow: <br> <img src='languages.png' style= 'width:25%' > <br> </p> </td> </tr> </table> </center>";
   } else if (value == 4) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center>  <p style='font-size:40px; color:#161673;'> <img src='software.png' align='left' class='roundimg' style= 'width:25%'> Software Engineering</p>  <p style='font-size:20px; color:#161673;'> Software Engineering is class that teaches the aspects and physiology of computer science that allows students to learn the vigors of the field of computer science. Within the 3 years of this program, students will cover the basic programming languages using scratch, html, java, javascript. They will learn the syntax while also gaining the ability of implementing the syntax to other programming language. As their knowledge expands, students will have the ability of using what they have learned and create personal projects using what they have learned. <p> </center>";
+    document.getElementById("description").innerHTML = "<center>  <p style='font-size:40px; color:#161673;'> <img src='../assets/images/software.png' align='left' class='roundimg' style= 'width:25%'> Software Engineering</p>  <p style='font-size:20px; color:#161673;'> Software Engineering is class that teaches the aspects and physiology of computer science that allows students to learn the vigors of the field of computer science. Within the 3 years of this program, students will cover the basic programming languages using scratch, html, java, javascript. They will learn the syntax while also gaining the ability of implementing the syntax to other programming language. As their knowledge expands, students will have the ability of using what they have learned and create personal projects using what they have learned. <p> </center>";
   } else if (value == 5) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center> <p> <b style='font-size:30px; color:#161673;'> Software: </b> <br>  </p> <br> <table style='width:100%;'><tr> <td> <b style='font-size:20px; color:#161673;'> Eclipse </b> <br> <img src='languages.png' align='center' style= 'width:25%' > </td><td> <b style='font-size:20px; color:#161673;'> Scratch </b> <br><img src='languages.png' align='center' style= 'width:25%' >  </td> <td>  <b style='font-size:20px; color:#161673;'> Sublime Text </b> <br> <img src='languages.png' align='center' style= 'width:25%' > </td></tr> </table> </center>";
@@ -291,7 +290,7 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1: </b> <br> Students will be briefly introduced into topics such as, logic gates, programming languages, and flowcharting, while also coding up their first assignment using the programming language of Scratch. </p> </center>";
   } else if (value == 10) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Titz-Baccon </p> <br> <img src='fabberz.jpg' style= 'width:25%' > </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Titz-Baccon </p> <br> <img src='../assets/images/fabberz.jpg' style= 'width:25%' > </center>";
   } else if (value == 11) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center> OMG! ITS #11 </center>";

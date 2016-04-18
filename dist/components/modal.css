@@ -21,8 +21,7 @@
   top: 50%;
   left: 50%;
   text-align: left;
-  background: #ffffff;
-  opacity: .5;
+  background: rgba(255, 255, 255, .5);
   border: none;
   box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2), 1px 3px 15px 2px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: 50% 25%;

@@ -376,6 +376,11 @@ function callOption(value) {
   </div>
 </div>
 <script>
+
+$( window ).resize(function() {
+  console.log("Width: " + $( window ).width());
+  console.log("Length: " + $( window ).length());
+});
   //Height and Width of Each Circle
   var documentsize = $(document).height();
   var circleonesize = Math.floor($(document).height() * .22);

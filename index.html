@@ -377,7 +377,10 @@ function callOption(value) {
 </div>
 <script>
 
-	var circleonesize = Math.floor($(document).height() * .22);
+  $( window ).resize(function() {
+
+  //Height and Width of Each Circle
+  var circleonesize = Math.floor($(document).height() * .22);
   var circletwosize = Math.floor($(document).height() * .37);
   var circlethreesize = Math.floor($(document).height() * .26);
   var circlefoursize = Math.floor($(document).height() * .45);
@@ -395,8 +398,6 @@ function callOption(value) {
   var circlesixteensize = Math.floor($(document).height() * .14);
   var circleseventeensize = Math.floor($(document).height() * .18);
   var circleeighteensize = Math.floor($(document).height() * .08);
-
-  $( window ).resize(function() {
 
   //Setting Height and Width of Each Circle
   document.getElementById("circleone").style.height = circleonesize + 'px';

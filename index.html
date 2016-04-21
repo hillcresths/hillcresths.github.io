@@ -378,11 +378,8 @@ function callOption(value) {
 <script>
 
 $( window ).resize(function() {
-  console.log("Window Width: " + $( window ).width());
-  console.log("Window Length: " + $( window ).height());
-  console.log("Document Width: " + $( document ).width());
-  console.log("Document Length: " + $( document ).height());
-});
+
+
   //Height and Width of Each Circle
   var documentsize = $(document).height();
   var circleonesize = Math.floor($(document).height() * .22);
@@ -523,6 +520,8 @@ $( window ).resize(function() {
   document.getElementById("circleeighteen").style.width = circleeighteensize + 'px';
   document.getElementById("circleeighteen").style.marginLeft = circleeighteensize/(-2) + 450 + 'px';
   document.getElementById("circleeighteen").style.marginTop = circleeighteensize/(-2) - 215 + 'px';
+
+  });
 </script>
 </body>
 </html>

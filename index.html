@@ -378,8 +378,10 @@ function callOption(value) {
 <script>
 
 $( window ).resize(function() {
-  console.log("Width: " + $( window ).width());
-  console.log("Length: " + $( window ).height());
+  console.log("Window Width: " + $( window ).width());
+  console.log("Window Length: " + $( window ).height());
+  console.log("Document Width: " + $( document ).width());
+  console.log("Document Length: " + $( document ).height());
 });
   //Height and Width of Each Circle
   var documentsize = $(document).height();

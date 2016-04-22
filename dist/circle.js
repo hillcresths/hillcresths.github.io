@@ -1,8 +1,10 @@
+resize();
+
 var numbers = [ "one", "two", "three", "four", "five", "six",
         "seven", "eight", "nine", "ten", "eleven",
         "twelve", "thirteen", "fourteen", "fifteen",
         "sixteen", "seventeen", "eighteen" ];
-        
+
 $(window).load(function() {
   setTimeout(function() {
     for ( var i=0; i < numbers.length; i++) {

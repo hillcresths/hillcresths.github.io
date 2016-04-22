@@ -1,0 +1,194 @@
+  .parent {
+    max-width:500px;
+  }
+  @-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+  }
+  .roundimg {
+    border-radius: 50%;
+   }
+  .startup {
+    background-image: url(../assets/images/bg.jpg);
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 400px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    filter: alpha(opacity=50);
+    z-index: 2;
+    -webkit-animation: pulsate 5s ease-out;
+    -webkit-animation-iteration-count: 1; 
+  }
+  .circle {
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+    filter: alpha(opacity=50);
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(125,185,232,0) 0%, rgba(0,0,0,0.97) 70%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 74%, rgba(0,0,0,1) 76%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(125,185,232,0) 0%,rgba(0,0,0,0.97) 70%,rgba(0,0,0,1) 72%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 76%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  rgba(125,185,232,0) 0%,rgba(0,0,0,0.97) 70%,rgba(0,0,0,1) 72%,rgba(0,0,0,1) 74%,rgba(0,0,0,1) 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    z-index: 2;
+  }
+  .circle > a {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    text-decoration: none;
+    z-index: 1;
+  }
+  .circle:hover {
+    z-index: 15;
+    background-color: #FFFFFF;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    cursor: url('../assets/images/COOORSORH.png'), auto;
+  }
+  .circletext {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .circletext:hover {
+    color: #FFFFFF;
+    text-decoration:none;
+    z-index: 1;
+  }
+  #circleone {
+    border: 8px solid rgba(64, 45, 51);
+    border: 8px solid rgba(64, 45, 51, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circletwo {
+    border: 1px solid rgb(0, 56, 82);
+    border: 8px solid rgba(0, 56, 82, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circlethree {
+    border: 1px solid rgb(37, 53, 77);
+    border: 8px solid rgba(37, 53, 77, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circlefour {
+    border: 1px solid rgb(20, 19, 20);
+    border: 8px solid rgba(20, 19, 20, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circlefive {
+    border: 1px solid rgb(82, 91, 97);
+    border: 8px solid rgba(82, 91, 97, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circlesix {
+    border: 1px solid rgb(121, 123, 125);
+    border: 8px solid rgba(121, 123, 125, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circleseven {
+    border: 1px solid rgb(55, 78, 115);
+    border: 8px solid rgba(55, 78, 115, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circleeight {
+    border: 1px solid rgb(58, 118, 140);
+    border: 8px solid rgba(58, 118, 140, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circlenine {
+    border: 1px solid rgb(50, 40, 56);
+    border: 8px solid rgba(50, 40, 56, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circleten {
+    border: 1px solid rgb(112, 90, 99);
+    border: 8px solid rgba(112, 90, 99, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }
+  #circleeleven, #circletwelve, #circlethirteen, #circlefourteen, #circlefifteen, #circlesixteen, #circleseventeen, #circleeighteen {
+    border: 1px solid rgb(84, 84, 84);
+    border: 8px solid rgba(84, 84, 84, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -moz-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff; 
+    -webkit-box-shadow:1px 1px 3px 1px #000, -1px -1px 1px #fff;
+    border-radius: 50%;
+  }

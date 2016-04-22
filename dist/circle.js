@@ -76,6 +76,7 @@ $( window ).resize(function() {
 
 function resize() {
   //Height and Width of Each Circle
+  console.log($(document).height());
   var circleonesize = Math.floor($(document).height() * .22);
   var circletwosize = Math.floor($(document).height() * .37);
   var circlethreesize = Math.floor($(document).height() * .26);

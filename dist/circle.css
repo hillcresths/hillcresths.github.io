@@ -58,7 +58,7 @@
     opacity: .5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
-    cursor: url('../assets/images/COOORSORH.png'), auto;
+    cursor: url('../assets/images/cursorH.png'), auto;
   }
   .circletext {
     display: inline-block;

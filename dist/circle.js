@@ -76,7 +76,7 @@ $( window ).resize(function() {
 
 function resize() {
   //Height and Width of Each Circle
-  console.log($(document).height());
+  var parent = Math.floor($(document).height() * .52);
   var circleonesize = Math.floor($(document).height() * .22);
   var circletwosize = Math.floor($(document).height() * .37);
   var circlethreesize = Math.floor($(document).height() * .26);
@@ -97,6 +97,8 @@ function resize() {
   var circleeighteensize = Math.floor($(document).height() * .08);
 
   //Setting Height and Width of Each Circle
+  document.getElementById("parent").style.width = parent + 'px';
+
   document.getElementById("circleone").style.height = circleonesize + 'px';
   document.getElementById("circleone").style.width = circleonesize + 'px';
   document.getElementById("circleone").style.marginLeft = circleonesize/(-2) - 280 + 'px';

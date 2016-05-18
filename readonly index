@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Hillcrest HS - Engineering</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<link type='text/css' rel='stylesheet' href='../dist/circle.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/container.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/dimmer.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/grid.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/modal.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/reset.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/site.css'>
+<link type='text/css' rel='stylesheet' href='../dist/components/transition.css'>
+
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+<script src='../dist/circle.js'></script>
+<script src='../dist/components/dimmer.js'></script>
+<script src='../dist/components/modal.js'></script>
+<script src='../dist/components/site.js'></script>
+<script src='../dist/components/transition.js'></script>
+
+<style type="text/css">
+	body{
+		background-image: url(../assets/images/bg.jpg);
+		background-size: 100%;
+		background-repeat: repeat-y;
+		cursor: url('../assets/images/cursor.png'), auto;
+		overflow:hidden;
+	}
+	body > .grid {
+		height: 100%;
+		padding: 20px;
+	}
+	h1 {
+		font-family: Orbitron;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+		color: #FFFFFF;
+		z-index: 1;
+	}
+	.image {
+		margin-top: -100px;
+	}
+	
+</style>
+</head>
+<body>
+<!--The sperate information for what will be inside the circles-->
+<div class="ui modal">
+  <div class="image content">
+    <div id="description" class="description" style="width:100%;"></div>
+  </div>
+</div>
+<div id="parent" class="parent">
+  <div id="circleone" onclick="callOption(1);" class="startup">
+    <center><a class="circletext"><h1 id="textone">Field Trips</h1></a><center>
+  </div>
+  <div id="circletwo" onclick="callOption(2);" class="startup">
+    <center><a class="circletext"><h1 id="texttwo">Languages</h1></a></center>
+  </div>
+  <div id="circletwelve" onclick="callOption(12);" class="startup">
+  </div>
+  <div id="circlethree" onclick="callOption(3);" class="startup">
+    <center><a class="circletext"><h1 id="textthree">Special Programs</h1></a></center>
+  </div>
+  <div id="circlefour" onclick="callOption(4);" class="startup">
+    <center><a class="circletext"><h1 id="textfour">Introduction</h1></a></center>
+  </div>
+  <div id="circlefive" onclick="callOption(5);" class="startup">
+    <center><a class="circletext"><h1 id="textfive">Software</h1></a></center>
+  </div>
+  <div id="circlesix" onclick="callOption(6);" class="startup">
+    <center><a class="circletext"><h1 id="textsix">Projects</h1></a></center>
+  </div>
+  <div id="circleseven" onclick="callOption(7);" class="startup">
+    <center><a class="circletext"><h1 id="textseven">Year 2</h1></a></center>
+  </div>
+  <div id="circleeight" onclick="callOption(8);" class="startup">
+    <center><a class="circletext"><h1 id="texteight">Year 3</h1></a></center>
+  </div>
+  <div id="circlenine" onclick="callOption(9);" class="startup">
+    <center><a class="circletext"><h1 id="textnine">Year 1</h1></a></center>
+  </div>
+  <div id="circleten" onclick="callOption(10);" class="startup">
+    <center><a class="circletext"><h1 id="textten">Resources</h1></a></center>
+  </div>
+  <div id="circleeleven" onclick="callOption(11);" class="startup">
+  </div>
+  <div id="circlethirteen" onclick="callOption(13);" class="startup">
+  </div>
+  <div id="circlefourteen" onclick="callOption(14);" class="startup">
+  </div>
+  <div id="circlefifteen" onclick="callOption(15);" class="startup">
+  </div>
+  <div id="circlesixteen" onclick="callOption(16);" class="startup">
+  </div>
+  <div id="circleseventeen" onclick="callOption(17);" class="startup">
+  </div>
+  <div id="circleeighteen" onclick="callOption(18);" class="startup">
+  </div>
+</div>
+
+<script>
+	resize();
+</script>
+
+</body>
+</html>

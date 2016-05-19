@@ -10,7 +10,7 @@
     border-radius: 50%;
    }
   .startup {
-    background-image: url(../assets/images/bg.jpg);
+    background-color:blue;
     -moz-border-radius: 200px;
     -webkit-border-radius: 400px;
     border-radius: 50%;

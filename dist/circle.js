@@ -41,7 +41,7 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1: </b> <br> Students will be briefly introduced into topics such as, logic gates, programming languages, and flowcharting, while also coding up their first assignment using the programming language of Scratch. </p> </center>";
   } else if (value == 10) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Titz-Baccon </p> <br> <img src='../assets/images/fabberz.JPG' style= 'width:25%' > </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Tietz-Baccon </p> <br> <img src='../assets/images/fabberz.JPG' style= 'width:25%' > </center>";
   } else if (value == 11) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center> OMG! ITS #11 </center>";

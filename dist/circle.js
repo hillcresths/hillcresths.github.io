@@ -41,7 +41,7 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1: </b> <br> Students will be introduced to logic gates, pseudo code, flowcharts, and binary and hexadecimal code, among other topics. They will learn how to program using a user-friendly code called Scratch, and be introduced to the logical steps the computer takes in assessing a problem. </p> </center>";
   } else if (value == 10) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Tietz-Baccon </p> <p><b>Fabberz</b><br>Address: 234234234324234<br>Number:234234234</p> <br> <img src='../assets/images/fabberz.JPG' style= 'width:25%' > </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Tietz-Baccon </p> <p><b>Fabberz</b><br>Address: 234234234324234<br>Number:234234234</p> <br> <img src='../assets/images/internships.png' > </center>";
   } 
 }
 

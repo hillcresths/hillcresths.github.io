@@ -45,11 +45,6 @@ function callOption(value) {
   } 
 }
 
-$( window ).resize(function() {
-  resize();
-});
-
-
 function resize() {
   //Height and Width of Each Circle
   var parent = Math.floor($(document).height() * .52);
@@ -194,3 +189,7 @@ function resize() {
   document.getElementById("circleeighteen").style.marginLeft = circleeighteensize/(-2) + 450 + 'px';
   document.getElementById("circleeighteen").style.marginTop = circleeighteensize/(-2) - 215 + 'px';
 }
+
+$( window ).resize(function() {
+  resize();
+});

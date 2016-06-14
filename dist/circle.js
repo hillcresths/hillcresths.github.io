@@ -20,7 +20,7 @@ function callOption(value) {
      document.getElementById("description").innerHTML = "<body id='bodyv2'><h1 style='font-size:30px; color:black; text-align:center;'> Languages </h1><hr><p style='font-size:18px; color:black; text-align:center;'> Throughout the course, student have been able to learn the basics of some programming languages.They then further advance their knowledge by creating their own projects using the programming language they learned during the year.<div class='container'><table style='width:80%' align='center'><tr><td><div class='flip-container' ontouchstart='this.classList.toggle('hover');'><div class='flipper'><div class='front'>HTML</div><div class='back'>Hyper Text Markup Language </div></div></div></td><td><div class='flip-container' ontouchstart='this.classList.toggle('hover');'><div class='flipper'><div class='front'>JavaScript</div><div class='back'>is the programming language of HTML and the Web.</div></div></div></td><td><div class='flip-container' ontouchstart='this.classList.toggle('hover');'><div class='flipper'><div class='front'>Scratch</div><div class='back'>a free programming language and online community where you can create your own interactive stories, games, and animations.</div></div></div></td><td><div class='flip-container' ontouchstart='this.classList.toggle('hover');'><div class='flipper'><div class='front'>Java</div><div class='back'> object-oriented language similar to C++, but simplified to eliminate language features that cause common programming errors.</div></div></div></td></tr></table></div></body>";
   } else if (value == 3) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<h1 style='font-size:30px; color:black; text-align:center;'> Special Programs </h1><hr><p style='text-align:center;color:black; font-size:18px;'><b>Girls Who Code:</b>A highly competitive summer immersion program that is working to end the gender gap in the stem field by teaching girls about the Computer Science field and motivating them to pursue STEM studies.<br> <a href='http://girlswhocode.com/'>Visit there page!</a> </p><div class='container' style='width:100%'><div style='width;color:black; width:100%;margin: auto; height:300;'><p><img src='gwcgs.jpg' class='img-thumbnail' width='304' height='236' > <p style='margin: 0;padding: 0; font-size:30px'> Girls Who Code - Natalia</p><p style='margin: 0;padding: 0; font-size:15px'> Goldman Sachs 2014 </p><p style='margin: 0;padding: 0; font-size:20px'> /Summary about their experience/ </p></p></div><div style='color:black; width:100%;margin: auto; height:300;'><p><img src='gwcan.jpg' class='img-thumbnail' width='304' height='236' align='right'> <p style='margin: 0;padding: 0; font-size:30px'> Girls Who Code - Kirstyn</p><p style='margin: 0;padding: 0; font-size:15px'> Goldman Sachs 2014 </p><p style='margin: 0;padding: 0; font-size:18px'> /Summary about their experience/ </p></p></div></div>";
+    document.getElementById("description").innerHTML = "<h1 style='font-size:30px; color:black; text-align:center;'> Special Programs </h1><hr><p style='text-align:center;color:black; font-size:18px;'><b>Girls Who Code:</b> A highly competitive summer immersion program that is working to end the gender gap in the stem field by teaching girls about the Computer Science field and motivating them to pursue STEM studies.<br> <a href='http://girlswhocode.com/'>Visit there page!</a> </p><div class='container'><table><tr><div style='width;color:black; width:100%;margin: auto; height:250;'><p><img src='gwcgs.jpg' class='img-thumbnail' width='304' height='236' > <p style='margin: 0;padding: 0; font-size:30px'> Girls Who Code - Natalia</p><p style='margin: 0;padding: 0; font-size:15px'> Goldman Sachs 2014 </p><p style='margin: 0;padding: 0; font-size:20px'> /Summary about their experience/ </p></p></div></tr><tr><div style='color:black; width:100%;margin: auto; height:250;'><p><img src='gwcan.jpg' class='img-thumbnail' width='304' height='236' align='right'> <p style='margin: 0;padding: 0; font-size:30px'> Girls Who Code - Kirstyn</p><p style='margin: 0;padding: 0; font-size:15px'> Goldman Sachs 2014 </p><p style='margin: 0;padding: 0; font-size:18px'> /Summary about their experience/ </p></p></div></tr></table></div>";
   } else if (value == 4) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center>  <p style='font-size:40px; color:#161673;'> <img src='../assets/images/software.png' align='left' class='roundimg' style= 'width:25%'> Software Engineering</p>  <p style='font-size:20px; color:#161673;'> Software Engineering is class that teaches the aspects and physiology of computer science that allows students to learn the vigors of the field of computer science. Within the 3 years of this program, students will cover the basic programming languages using scratch, html, java, javascript. They will learn the syntax while also gaining the ability of implementing the syntax to other programming language. As their knowledge expands, students will have the ability of using what they have learned and create personal projects using what they have learned. <p> </center>";
@@ -32,41 +32,17 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Projects:  </b> <br> Scratch Division using only addition, All about me Website using HTML / CSS, Create game through Eclipse using Java or Javascript to implement their ideas, Graphing quadratic equations, Rock Paper Scissors lizard spock in Javascript </p> </center>";
   } else if (value == 7) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 2: </b> <br> Students will implement their own programs using Java / Javascript through Eclipse, while also being hardcoded to flowchart. Because flowchart is life. </p> </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 2: </b> <br> Students will take part in the creation of applications using javascript and implementing them in HTML. They will take part in the debugging of their applications by assessing their code and improving it to prevent any possible issues. Students will learn and expand their knowledge on the basics of Cyber Security.</p> </center>";
   } else if (value == 8) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 3: </b> <br> Students will go even more in depth from year one, and focus on the fundamentals of programming and computers. While also creating their own personal website. </p> </center>";
   } else if (value == 9) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1: </b> <br> Students will be briefly introduced into topics such as, logic gates, programming languages, and flowcharting, while also coding up their first assignment using the programming language of Scratch. </p> </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1: </b> <br> Students will be introduced to logic gates, pseudo code, flowcharts, and binary and hexadecimal code, among other topics. They will learn how to program using a user-friendly code called Scratch, and be introduced to the logical steps the computer takes in assessing a problem. </p> </center>";
   } else if (value == 10) {
     $('.ui.modal').modal('show');
     document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Resources/Internships: </b> <br> Fabberz, Tietz-Baccon </p> <br> <img src='../assets/images/fabberz.JPG' style= 'width:25%' > </center>";
-  } else if (value == 11) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #11 </center>";
-  } else if (value == 12) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #12 </center>";
-  } else if (value == 13) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #13 </center>";
-  } else if (value == 14) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #14 </center>";
-  } else if (value == 15) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #15 </center>";
-  } else if (value == 16) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #16 </center>";
-  } else if (value == 17) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #17 </center>";
-  } else if (value == 18) {
-    $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> OMG! ITS #18 </center>";
-  }
+  } 
 }
 
 $( window ).resize(function() {

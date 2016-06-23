@@ -41,7 +41,7 @@ function callOption(value) {
     document.getElementById("description").innerHTML = "<center> <p style='font-size:20px; color:#161673;'> <b style='font-size:25px; color:#161673;' > Year 1 </b> <br> Students will be introduced to logic gates, pseudo code, flowcharts, and binary and hexadecimal code, among other topics. They will learn how to program using a user-friendly code called Scratch, and be introduced to the logical steps the computer takes in assessing a problem. </p> </center><center><img src='http://cs.brown.edu/~tld/publications/books/talking/web/figures/fig-arch-gates.png' width='304' height='236' ><img src='http://transmissionsmedia.com/wp-content/uploads/2013/01/206868-binary-code-hacking.jpg' width='304' height='236' > </center>";
   } else if (value == 10) {
     $('.ui.modal').modal('show');
-    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Internships: </b> </p> <br> <img src='../assets/images/interships.png' > </center>";
+    document.getElementById("description").innerHTML = "<center> <p style='font-size:25px; color:#161673;'> <b style='font-size:30px; color:#161673;'> Internships </b> </p> <br> <img src='../assets/images/interships.png' > </center>";
   } 
 }
 
